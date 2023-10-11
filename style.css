@@ -1,0 +1,200 @@
+@import url(http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --heading: rgb(27, 24, 24);
+    --text: rgb(83, 74, 74);
+    --theme : rgb(255, 94, 0);
+    --bg : rgb(210, 234, 248);
+    --footerbg : rgb(38, 38, 79);
+}
+body {
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5{
+    color: var(--heading);
+}
+p{
+    color: var(--text);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+header {
+   background-color: var(--bg);
+    width: 100vw;
+    height: 90vh;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 20px;
+}
+.nav-links img{
+    width: 50px;
+}
+.nav-links li a{
+    color: var(--heading);
+}
+.header-content{
+    display: flex;
+    align-items: center;
+}
+.header-content img {
+    max-width: 90%;
+}
+.header-info {
+    flex: 60%;
+}
+.line {
+    width: 150px;
+    height: 4px;
+    margin-top: 30px;
+    background: var(--theme);
+    border-radius: 5px;
+}
+.header-info h1 {
+    font-size: 50px;
+}
+.header-info h3 {
+    margin: 15px 0;
+}
+.ctn{
+   
+    background: var(--theme);
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    margin-top: 30px;
+    color:var(--bg);
+    padding: 13px 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.ctn:hover,
+.ctn :active,
+.ctn :focus {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+    background: whitesmoke;
+    color: rgb(185, 3, 3);
+    box-shadow: 2px 2px 5px rgb(23, 18, 18);
+}
+#categories {
+    display: flex;
+    margin: 80px auto;
+    justify-content: space-between;
+}
+.category {
+    text-align: center;
+}
+.category img{
+    width: 80%;
+    margin: 20px 40px;
+}
+.category img:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+#featured-products {
+    margin: 80px auto;
+}
+.section-info {
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+    justify-content: center;
+    align-items: center;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+}
+.products img {
+    width: 95%;
+}
+.product img:hover{
+    transition: all 0.3s ease-in;
+    transform: scale(1.1);
+}
+.product h3{
+    
+    font-size: 14px;
+}
+.product p{
+    padding: 10px;
+}
+#offer {
+    margin: 80px auto;
+    background: var(--bg);
+}
+#offer .container {
+    display: flex;
+    align-items: center;
+}
+#offer .container img {
+    max-width: 600px;
+}
+.offer-content h1 {
+    font-size: 50px;
+}
+#featured {
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background: var(--footerbg);
+}
+.footer-content {
+display: flex;
+padding: 80px 0;
+}
+.footer-content .col {
+    flex: 1;
+    margin: 0 20px;
+}
+footer li {
+    display: flex;
+    color: var(--bg);
+}
+.copyright {
+    padding: 10px 0;
+    text-align: center;
+}
+footer .col h3 {
+    color: whitesmoke;
+    display: flex;
+    margin: 80px auto;
+}
+.menubtn img{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    display: none;
+}
+.nav-links :hover {
+    color: rgb(250, 0, 0);
+    transition: all 0.5s ease;
+    transform: scale(1.3);
+}
+
+
